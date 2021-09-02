@@ -38,7 +38,7 @@ const displayNumFound = (numbers) => {
 
   const h2 = document.createElement("h2");
   h2.classList.add("col");
-  h2.innerHTML = `<h2>Total Books Found ${numbers}</h2>
+  h2.innerHTML = `<h2>Total Books Found: ${numbers}</h2>
                  `;
   p.appendChild(h2);
 };
